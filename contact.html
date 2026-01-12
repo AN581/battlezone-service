@@ -61,12 +61,21 @@
 
         <div class="form box">
             <h2>Send Message</h2>
-            <form action="mailto:abdrahman.abdo.13@gmail.com" method="post" enctype="text/plain">
-                <input type="text" name="Name" placeholder="Your Name" required>
-                <input type="email" name="Email" placeholder="Your Email" required>
-                <textarea name="Message" placeholder="Your Message..." required></textarea>
-                <button type="submit" class="btn">Send</button>
-            </form>
+            <form action="https://formsubmit.co/abdrahman.abdo.13@gmail.com" method="POST">
+    
+    <!-- Disable captcha -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Redirect to Thank You page -->
+    <input type="hidden" name="_next" value="https://battlezonelb.com/success.html">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message..." required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+</form>
+
         </div>
 
         <div class="qr box">
