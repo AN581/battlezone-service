@@ -503,4 +503,12 @@ footer {
     font-size: 22px;
     text-shadow: 0 0 12px #00ff88;
 }
+nav a {
+    margin: 0 12px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap; /* يخليهن ينزلو بترتيب بدون فوق بعض */
+    gap: 10px;       /* مسافة بين الأزرار */
+}
 
