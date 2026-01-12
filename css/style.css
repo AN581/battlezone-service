@@ -609,4 +609,89 @@ nav {
     content: ">> ";
     color: #00ff00;
 }
+.pricing-box {
+    width: 450px;
+    margin: 40px auto;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 2px solid #00ff88;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #00ff88;
+    text-align: center;
+}
+
+.pricing-box h2 {
+    margin-bottom: 20px;
+    color: #00ff88;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    margin: 10px 0;
+    background: rgba(0,255,100,0.05);
+    border: 1px solid #00ff88;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #fff;
+    gap: 50px;
+}
+.price-row span:last-child {
+    font-weight: bold;
+    color: #00ff88;
+}
+/* Fix Centering */
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 120px;
+    color: #00ff88;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-container {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+/* ---- PRICING PAGE FIX ---- */
+
+.pricing-container {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    margin: 10px 0;
+    background: rgba(0,255,100,0.08);
+    border: 1px solid #00ff88;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.pricing-footer {
+    margin-top: 120px;
+    text-align: center;
+    width: 100%;
+    color: #00ff88;
+    font-size: 14px;
+}
 
