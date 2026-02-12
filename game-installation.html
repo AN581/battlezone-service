@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Installation - BATTLEZONE SERVICE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">BATTLEZONE SERVICE</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="tournaments.html">Tournaments</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="section">
+    <h1 class="glow-title">🎮 Game Installation</h1>
+
+    <div class="installation-box">
+
+        <div class="currency-switch">
+            <button onclick="setCurrency('LBP')">LBP</button>
+            <button onclick="setCurrency('USD')">USD</button>
+        </div>
+
+        <h2>💾 Install by Size</h2>
+        <p>20,000 LBP per 1GB</p>
+
+        <input type="number" id="gbInput" placeholder="Enter game size in GB">
+        <button onclick="calculateGB()">Calculate</button>
+
+        <p class="result" id="gbResult">0</p>
+
+        <button class="whatsapp-btn" id="gbWhatsapp">Order via WhatsApp</button>
+
+        <hr>
+
+        <h2>🕹 Old Games Package</h2>
+        <p>5 games = 300,000 LBP</p>
+
+        <input type="number" id="oldGamesInput" placeholder="How many old games?">
+        <button onclick="calculateOldGames()">Calculate</button>
+
+        <p class="result" id="oldGamesResult">0</p>
+
+        <button class="whatsapp-btn" id="oldWhatsapp">Order via WhatsApp</button>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
